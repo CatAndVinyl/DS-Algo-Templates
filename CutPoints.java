@@ -61,6 +61,18 @@ public class CutPoints
 
 	public static void main(String[] args) throws IOException
 	{
+		//Input Format:
+		// First line: N nodes followed by M edges
+		// M lines, each with an edge (undirected/directed)
+		//
+		// Ex.
+		// 5 6
+		// 1 2
+		// 2 3
+		// 3 4
+		// 1 3
+		// 2 4
+		// 4 5
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int n = Integer.parseInt(st.nextToken());

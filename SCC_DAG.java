@@ -84,7 +84,7 @@ public class SCC_DAG
 	{
 		//Input Format:
 		// First line: N nodes, M edges 
-		// followed by M lines with an edge each
+		// followed by M lines with an edge each (directed)
 		// 
 		// Ex.
 		// 4 4
