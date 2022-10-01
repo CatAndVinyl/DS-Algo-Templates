@@ -1,7 +1,7 @@
 /*
 * Compress a graph into a DAG
 * Uses Tarjan's algorithm
-
+*
 */
 import java.io.*;
 import java.util.*;
